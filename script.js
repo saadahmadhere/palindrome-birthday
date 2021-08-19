@@ -8,8 +8,6 @@ function ThisDate(str){
     return reverse === str
 }
 
-// console.log(ThisDate("mom"))
-
 function dateToString(date){
 
     let dateStr = {day: "", month:"", year:""}
@@ -31,8 +29,6 @@ function dateToString(date){
     return dateStr
 }
 
-// console.log(date.day)
-
 function getAllDateFormats(date){
     let dateStr = dateToString(date);
 
@@ -45,7 +41,6 @@ function getAllDateFormats(date){
     return[ddmmyyyy, mmddyyyy, yyyymmdd, mmddyy, yymmdd]
 }
 
-// console.log(getAllDateFormats(date));
 
 function checkPalindromeForAllDateFormats(date){
     let listOfPalindrome = getAllDateFormats(date)
@@ -169,13 +164,6 @@ function getPreviousPalindromeDate(date){
 
 }
 
-// console.log("date: ", date);
-
-// console.log("previous date: ",getPreviousDate(date));
-
-// console.log("previous palindrome: ", getPreviousPalindromeDate(date));
-
-// console.log(checkPalindromeForAllDateFormats(getPreviousDate(date)))
 
 
 let dateInput = document.querySelector("#birthday-input")
