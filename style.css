@@ -2,7 +2,7 @@
 
 *{
     font-family: 'Style Script', cursive;
-    background-color: #e7f4fc;
+    /* background-color: #e7f4fc; */
 
 }
 
@@ -41,3 +41,29 @@ button:hover{
 p{
     font-size: 1.5rem;
 }
+
+/* Footer */
+
+.footerLink a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 1rem;
+    font-size: 1.5rem;
+    color: black;
+  }
+  
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-inline-start: 0px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+  }
